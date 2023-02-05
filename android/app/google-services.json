@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633179621166",
+    "project_id": "taubatexas-2c21a",
+    "storage_bucket": "taubatexas-2c21a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633179621166:android:212bc576fb63cce2a7dcbf",
+        "android_client_info": {
+          "package_name": "com.example.alunos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633179621166-2u18281ifgt9sbrsfvstgrmagusq703l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYaq93lge7V-pkaN3B3sZrLEpGORP6RZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633179621166-2u18281ifgt9sbrsfvstgrmagusq703l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
