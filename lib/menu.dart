@@ -46,16 +46,14 @@ class _MenuState extends State<Menu> {
             ]
           )
         ),
-        body: SafeArea(
-          child: Container(
-            padding: const EdgeInsets.all(20),
-            alignment: Alignment.center,
-            child: Column(
-              children: <Widget>[
-                
-              ]
+        body: TabBarView(
+          children: <Widget>[
+            SafeArea(
+              //child: ListView.builder(
+							child: Container()
+							//)
             )
-          )
+          ]
         )
       )
     );

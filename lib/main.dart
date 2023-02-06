@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'menu.dart';
+import 'register.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
@@ -17,9 +18,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/menu': (BuildContext context) => const Menu()
+        '/menu': (BuildContext context) => const Menu(),
+        '/register': (BuildContext context) => const Register(),
       },
-      initialRoute: '/menu'
+			initialRoute: '/register'
     );
   }
 }
